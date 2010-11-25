@@ -1,0 +1,1 @@
+rails generate scaffold Participante nome:string email:string endereco:string bairro:string zona:string cep:string cidade:string estado:string telefone:string celular:string recado:string nasc:string idade:integer peso:string 

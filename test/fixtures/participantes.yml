@@ -1,0 +1,33 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nome: MyString
+  email: MyString
+  endereco: MyString
+  bairro: MyString
+  zona: MyString
+  cep: MyString
+  cidade: MyString
+  estado: MyString
+  telefone: MyString
+  celular: MyString
+  recado: MyString
+  nasc: MyString
+  idade: 1
+  peso: MyString
+
+two:
+  nome: MyString
+  email: MyString
+  endereco: MyString
+  bairro: MyString
+  zona: MyString
+  cep: MyString
+  cidade: MyString
+  estado: MyString
+  telefone: MyString
+  celular: MyString
+  recado: MyString
+  nasc: MyString
+  idade: 1
+  peso: MyString

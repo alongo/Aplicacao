@@ -1,0 +1,49 @@
+<h1>Listing participantes</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Email</th>
+    <th>Endereco</th>
+    <th>Bairro</th>
+    <th>Zona</th>
+    <th>Cep</th>
+    <th>Cidade</th>
+    <th>Estado</th>
+    <th>Telefone</th>
+    <th>Celular</th>
+    <th>Recado</th>
+    <th>Nasc</th>
+    <th>Idade</th>
+    <th>Peso</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @participantes.each do |participante| %>
+  <tr>
+    <td><%= participante.nome %></td>
+    <td><%= participante.email %></td>
+    <td><%= participante.endereco %></td>
+    <td><%= participante.bairro %></td>
+    <td><%= participante.zona %></td>
+    <td><%= participante.cep %></td>
+    <td><%= participante.cidade %></td>
+    <td><%= participante.estado %></td>
+    <td><%= participante.telefone %></td>
+    <td><%= participante.celular %></td>
+    <td><%= participante.recado %></td>
+    <td><%= participante.nasc %></td>
+    <td><%= participante.idade %></td>
+    <td><%= participante.peso %></td>
+    <td><%= link_to 'Show', participante %></td>
+    <td><%= link_to 'Edit', edit_participante_path(participante) %></td>
+    <td><%= link_to 'Destroy', participante, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Participante', new_participante_path %>
